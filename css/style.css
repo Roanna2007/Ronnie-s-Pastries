@@ -162,3 +162,169 @@ header {
 .service-items p a {
   color: rgb(211, 8, 86);
 }
+
+/* Portfolio */
+.portfolio {
+  background: rgb(211, 8, 86);
+}
+
+.portfolio-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.portfolio-items {
+  color: #fff;
+}
+
+.portfolio-heading {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.portfolio-heading h2 {
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-size: 1.5rem;
+}
+
+.portfolio-btn {
+  border: #fff solid 2px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+/* Offer */
+.offer {
+  border-bottom: rgb(211, 8, 86) solid 2px;
+}
+
+.offer-heading {
+  color: rgb(211, 8, 86);
+  font-family: "Rubik Moonrocks", sans-serif;
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.offer-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.offer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.offer-items {
+  padding: 20px;
+}
+
+.offer-items h2 {
+  color: rgb(211, 8, 86);
+  margin-bottom: 1rem;
+}
+
+.offer-items p {
+  margin-bottom: 1rem;
+}
+
+.offer-items p a {
+  color: rgb(211, 8, 86);
+}
+
+.offer-btn {
+  background: rgb(211, 8, 86);
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Testimonials */
+.testimonial {
+  text-align: center;
+}
+
+.testimonial-heading {
+  color: rgb(211, 8, 86);
+  font-family: "Rubik Moonrocks", sans-serif;
+  text-align: center;
+  margin-block: 1rem;
+}
+
+.quote {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.name {
+  color: rgb(211, 8, 86);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people img {
+  border-radius: 50px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: #fff;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.footer-container h3 {
+  color: rgb(211, 8, 86);
+  margin-bottom: 1rem;
+}
+
+.pink {
+  color: rgb(211, 8, 86);
+}
+
+.part1 {
+  border-bottom: #fff solid 2px;
+  margin-bottom: 1rem;
+}
+
+.contacts {
+  margin-bottom: 1rem;
+}
+
+#email {
+  display: block;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.email-btn {
+  background: rgb(211, 8, 86);
+  border-radius: 3px;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
