@@ -13,6 +13,7 @@ body {
   margin: auto;
 }
 
+/* Header */
 header {
   background: rgb(211, 8, 86);
   padding: 5px;
@@ -70,4 +71,94 @@ header {
   background: #000;
   color: #fff;
   padding: 5px 20px;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  background-image: url(../images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.hero-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  mix-blend-mode: overlay;
+}
+
+.hero-heading {
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  word-spacing: 1.5rem;
+}
+
+.hero-text {
+  line-height: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  border: #fff solid 2px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Services */
+.services {
+  position: relative;
+  background: #fff;
+}
+
+.service-container {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.service-heading {
+  background: rgb(211, 8, 86);
+  /* border-radius: 10px; */
+  font-family: "Rubik Moonrocks", sans-serif;
+  color: #fff;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: 580px;
+}
+
+.service-items {
+  padding: 10px;
+  text-align: center;
+}
+
+.service-items i {
+  background: rgb(211, 8, 86);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.service-items p a {
+  color: rgb(211, 8, 86);
 }
