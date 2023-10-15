@@ -71,6 +71,7 @@ header {
   background: #000;
   color: #fff;
   padding: 5px 20px;
+  margin-left: 20px;
 }
 
 /* Hero */
@@ -126,7 +127,6 @@ header {
 
 /* Services */
 .services {
-  position: relative;
   background: #fff;
 }
 
@@ -138,14 +138,10 @@ header {
 }
 
 .service-heading {
-  background: rgb(211, 8, 86);
-  /* border-radius: 10px; */
   font-family: "Rubik Moonrocks", sans-serif;
-  color: #fff;
-  padding: 5px 10px;
-  position: absolute;
-  top: -15px;
-  left: 580px;
+  color: rgb(211, 8, 86);
+  text-align: center;
+  margin-block: 1rem;
 }
 
 .service-items {
@@ -262,6 +258,7 @@ header {
 
 .quote {
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -327,4 +324,71 @@ header {
   color: #fff;
   padding: 5px;
   text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .logo {
+    margin: auto;
+    margin-top: 1rem;
+    width: 300px;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .navbar ul li a {
+    margin-left: 10px;
+  }
+
+  .search-btn {
+    display: block;
+    margin: auto;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    padding: 20px;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+  }
+
+  .service-container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .offer-text {
+    padding: 20px;
+  }
+
+  .offer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-items {
+    padding: 10px;
+  }
+
+  .quote {
+    font-size: 1.5rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
 }
